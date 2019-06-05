@@ -12,8 +12,15 @@ const app = express();
  */
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+/**
+ * view engine
+ */
+app.set('view engine', 'pug');
+app.set('views', './views');
+
 app.get("/", (req, res) => {
-   res.send("hello, elasticbeanstalk");
+   res.render("index.js");
 });
 
 const port = process.env.PORT || 3000;
