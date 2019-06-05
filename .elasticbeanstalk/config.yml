@@ -1,0 +1,21 @@
+branch-defaults:
+  master:
+    environment: travis-ci-starter-dev
+ebbranch-defaults:
+  master:
+    environment: null
+    group_suffix: null
+global:
+  application_name: travis_ci_starter
+  branch: null
+  default_ec2_keyname: null
+  default_platform: Node.js
+  default_region: us-east-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: git
+  workspace_type: Application
