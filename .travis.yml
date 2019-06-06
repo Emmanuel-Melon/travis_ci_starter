@@ -11,3 +11,4 @@ deploy:
   region: "us-east-2"
   app: "travis_ci_starter"
   env: "travis-ci-starter-dev"
+  bucket_name: "elasticbeanstalk-us-east-2-433226216673.s3.amazonaws.com"
