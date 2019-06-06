@@ -5,9 +5,9 @@ deploy:
   provider: elasticbeanstalk
   # look at handling keys
   access_key_id:
-    secure: "Encrypted <access-key-id>="
+    secure: $access-key-id
   secret_access_key:
-    secure: "Encrypted <secret-access-key>="
+    secure: $secret-access-key
   region: "us-east-2"
   app: "travis_ci_starter"
   env: "travis-ci-starter-dev"
