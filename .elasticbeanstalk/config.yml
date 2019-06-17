@@ -12,7 +12,7 @@ global:
   default_platform: Node.js
   default_region: us-east-2
   include_git_submodules: true
-  instance_profile: null
+  instance_profile: oc_frontend
   platform_name: null
   platform_version: null
   profile: eb-cli
